@@ -87,8 +87,11 @@ Fork 本仓库到你的储存库然后按照以下内容编辑 config.env，之�
 | ---------- | ----------------- | --------------- |
 | 12.0.5 | Android S | r416183b |
 | 14.0.6 | Android T | r450784d |
-| 14.0.7 | | r450784e |
-| 15.0.1 | | r458507 |
+| 14.0.7 |               | r450784e |
+| 15.0.1 |               | r458507 |
+| 17.0.1 |               | r487747b |
+| 17.0.2 | Android U | r487747c |
+
 
 一般 Clang12 就能通过大部分 4.14 及以上的内核的编译
 我自己的 MI 6X 4.19 使用的是 r450784d
@@ -128,7 +131,7 @@ Fork 本仓库到你的储存库然后按照以下内容编辑 config.env，之�
 
 `KSU_EXPECTED_SIZE=0x033b`
 
-`KSU_EXPECTED_HASH=0xb0b91415`
+`KSU_EXPECTED_HASH=c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6`
 
 可键入`ksud debug get-sign <apk_path>`获取apk签名的size值和hash值
 
